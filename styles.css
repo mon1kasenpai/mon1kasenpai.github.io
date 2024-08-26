@@ -41,6 +41,16 @@ body {
     background-color: blueviolet;
 }
 
+.navbar a:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: white;
+}
+
 .navbar ul{
     list-style-type: none;
     background-color: rgb(70, 70, 70);
